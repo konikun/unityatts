@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEditor;
 using System;
 
-namespace UnityAtts.EditorTools
+namespace UnityAtts
 {
     [CustomPropertyDrawer(typeof(EnumBasedArrayAttribute))]
     public class EnumBasedArrayEditor : PropertyDrawer

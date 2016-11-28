@@ -4,7 +4,7 @@ using System.Collections;
 using System;
 using System.Linq;
 
-namespace UnityAtts.EditorTools
+namespace UnityAtts
 {
     public abstract class SelectorDrawer : PropertyDrawer
     {

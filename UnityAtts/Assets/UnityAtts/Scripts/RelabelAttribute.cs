@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace Manifesto.Util
+namespace UnityAtts
 {
     public class RelabelAttribute : PropertyAttribute
     {

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace SmoothieBlast.Util
+namespace UnityAtts
 {
     public class ForceCaseAttribute : PropertyAttribute
     {

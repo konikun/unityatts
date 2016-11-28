@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace Manifesto
+namespace UnityAtts
 {
     public class ImportComponentPropertiesAttribute : PropertyAttribute
     {

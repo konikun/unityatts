@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEditor;
-using SmoothieBlast.Util;
 
-namespace SmoothieBlast.EditorTools
+namespace UnityAtts
 {
     [CustomPropertyDrawer(typeof(ForceCaseAttribute))]
     public class ForceCaseDrawer : PropertyDrawer

@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 namespace UnityAtts
 {
-    public class LayerAttribute : PropertyAttribute
+    public class LayerSelectorAttribute : PropertyAttribute
     {
         public override bool Match(object obj)
         {

@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SortingLayerAttribute : PropertyAttribute {
+namespace UnityAtts
+{
+    public class SortingLayerAttribute : PropertyAttribute
+    {
+
+    }
 
 }

@@ -2,7 +2,7 @@
 using UnityEditor;
 using System.Collections;
 
-namespace UnityAtts.EditorTools
+namespace UnityAtts
 {
     [CustomPropertyDrawer(typeof(MinAttribute))]
     public class MinAttributeDrawer : PropertyDrawer

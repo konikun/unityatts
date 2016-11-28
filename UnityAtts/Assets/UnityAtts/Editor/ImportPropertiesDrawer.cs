@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEditor;
 
-namespace Manifesto.EditorTools
+namespace UnityAtts
 {
     [CustomPropertyDrawer(typeof(ImportComponentPropertiesAttribute))]
     public class ImportComponentPropertiesDrawer : PropertyDrawer

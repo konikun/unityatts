@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using UnityEditor;
-using Manifesto.Util;
 using System.Collections;
 
-namespace Manifesto.Editor.Util
+namespace UnityAtts
 {
     [CustomPropertyDrawer(typeof(RelabelAttribute))]
     public class RelabelAttributeDrawer : PropertyDrawer

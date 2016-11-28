@@ -4,7 +4,7 @@ using UnityEditor;
 using System.Reflection;
 using System.Linq;
 
-namespace UnityAtts.EditorTools
+namespace UnityAtts
 {
     [CustomPropertyDrawer(typeof(BoxedAttribute))]
     public class BoxedAttributeDrawer : PropertyDrawer

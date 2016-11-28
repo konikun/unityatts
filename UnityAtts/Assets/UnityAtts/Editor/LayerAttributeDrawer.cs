@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using System.Collections;
-using Manifesto.Util;
 
-namespace Manifesto.EditorTools
+namespace UnityAtts
 {
     [CustomPropertyDrawer(typeof(LayerAttribute))]
     public class LayerAttributeDrawer : PropertyDrawer
