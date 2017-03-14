@@ -1,20 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 namespace UnityAtts
 {
-    public class MinAttribute : PropertyAttribute
+    /// <summary>
+    /// Constrains an int field to a minimum value.
+    /// </summary>
+    public class MinAttribute : IntConstraintAttribute
     {
         public int MinValue { get; set; }
-
-        public override bool Match(object obj)
-        {
-            return obj is int;
-        }
 
         public MinAttribute(int min)
         {
             MinValue = min;
+        }
+
+        public override int ConstrainValue(int value)
+        {
+            return Mathf.Max(value, MinValue);
         }
     }
 
