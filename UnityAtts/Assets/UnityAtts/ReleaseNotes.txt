@@ -1,0 +1,15 @@
+## Latest version: 0.1.0
+
+Available attributes:
+- Integer Constraints: Min, Max
+- String Constraints: ForceCase
+- Helper: InstantiateButton
+- Layout & Organization: Boxed, ImportProperties, Relabel
+- Editors: SortingLayer, Layer, LayerSelector, EnumFlag
+
+
+## Release notes
+
+# Version 0.1.0
+- Added starting set of attributes & drawers
+- Upgraded project to Unity 5.5.2f1
