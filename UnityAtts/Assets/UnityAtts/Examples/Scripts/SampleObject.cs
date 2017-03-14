@@ -16,8 +16,8 @@ namespace UnityAtts.Examples
         [SerializeField] [Max(10)]
         private int maxIs10;
 
-        [SerializeField] [Min(1)] [Max(10)]
-        private int clampIs1to10;
+        [SerializeField] [InstantiateButton(HideButton =true)]
+        private GameObject toBeInstantiated;
         #endregion Unity Fields
 
         // Use this for initialization
