@@ -18,6 +18,12 @@ namespace UnityAtts.Examples
 
         [SerializeField] [InstantiateButton(HideButton =true)]
         private GameObject toBeInstantiated;
+
+        [SerializeField] [FalseIf("bool2")]
+        private bool bool1;
+
+        [SerializeField] [FalseIf("bool1")]
+        private bool bool2;
         #endregion Unity Fields
 
         // Use this for initialization
